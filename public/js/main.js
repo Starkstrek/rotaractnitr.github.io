@@ -72,3 +72,7 @@ $(window).on("scroll", function() {
           $('nav').removeClass('black');
     }
 })
+
+$(function () {
+    $('[data-toggle="tooltip"]').tooltip()
+  })
